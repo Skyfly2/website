@@ -1,0 +1,74 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+
+.top{
+    height: 30rem;
+    background-image: url('../images/other-city.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    overflow: visible;
+    text-align: center;
+    box-shadow: grey 0px 10px 30px;
+}
+
+.partial{
+    width: 50%;
+    text-align: center;
+}
+
+.greeting{
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    margin-top: 5rem;
+    animation: fadein 2s;
+}
+
+.greet-head{
+    font-size: 7rem;
+}
+
+.greet-tail{
+    font-size: 4rem;
+}
+
+nav{
+    opacity: 80%;
+}
+
+.content-block{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid lightgrey 1px;
+    display: flex;
+}
+
+.img-left{
+    height: 20rem;
+    box-shadow: grey 10px 10px;
+    margin-right: 5rem;
+}
+
+.img-right{
+    height: 20rem;
+    box-shadow: grey 10px 10px;
+    margin-left: 5rem;
+}
+
+@keyframes fadein{
+    from {opacity: 30%;}
+    to {opacity: 100%;}
+    from {margin-top: 4rem;}
+    to {margin-top: 5rem;}
+}
