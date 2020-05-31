@@ -409,6 +409,7 @@
         box-shadow: grey 10px 10px;
         margin-right: 5rem;
         transition: margin-top .5s;
+        display: block;
     }
 
     .img-right{
@@ -526,6 +527,7 @@
         box-shadow: grey 10px 10px;
         margin-right: 5rem;
         transition: margin-top .5s;
+        display: block;
     }
 
     .img-right{
