@@ -55,6 +55,32 @@ nav{
     min-height: 23rem;
 }
 
+.contact-block{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid lightgrey 1px;
+    display: flex;
+    min-height: 12rem;
+}
+
+.social{
+    height: 4rem;
+    margin-right: 2rem;
+    transition: opacity .5s, margin-top .5s;
+}
+
+.social:hover{
+    opacity: 30%;
+    margin-top: -.5rem;
+}
+
+.socials{
+    /* display: flex; */
+    height: 3rem;
+}
+
 .img-left{
     height: 20rem;
     box-shadow: grey 10px 10px;
