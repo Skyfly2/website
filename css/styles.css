@@ -556,3 +556,471 @@
         to {margin-top: 5rem;}
     }
 }
+@media screen and (min-width: 1400px){
+    .header{
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+    }
+
+    .img-small{
+        display: none;
+    }
+
+    .top{
+        height: 30rem;
+        background-image: url('../images/other-city.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: visible;
+        text-align: center;
+        box-shadow: grey 0px 10px 30px;
+    }
+
+    .partial{
+        width: 50%;
+        text-align: center;
+    }
+
+    .greeting{
+        color: white;
+        font-family: 'Chelsea Market', cursive;
+        margin-top: 5rem;
+        animation: fadein 2s;
+    }
+
+    .greet-head{
+        font-size: 7rem;
+    }
+
+    .greet-tail{
+        font-size: 4rem;
+    }
+
+    nav{
+        opacity: 0%;
+    }
+
+    .content-block{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 23rem;
+    }
+
+    .contact-block{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 12rem;
+    }
+
+    .social{
+        height: 4rem;
+        margin-right: 2rem;
+        transition: opacity .5s, margin-top .5s;
+    }
+
+    .social:hover{
+        opacity: 30%;
+        margin-top: -.5rem;
+    }
+
+    .socials{
+        height: 3rem;
+    }
+
+    .img-left{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-right: 5rem;
+        transition: margin-top .5s;
+        display: block;
+    }
+
+    .img-right{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-left: 5rem;
+        transition: margin-top .5s;
+    }
+
+    .img-left:hover{
+        margin-top: -1rem;
+    }
+
+    .img-right:hover{
+        margin-top: -1rem;
+    }
+
+    .school{
+        margin-top: 1rem;
+    }
+
+    @keyframes fadein{
+        from {opacity: 30%;}
+        to {opacity: 100%;}
+        from {margin-top: 4rem;}
+        to {margin-top: 5rem;}
+    }
+}
+@media screen and (min-width: 1600px){
+    .header{
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+    }
+
+    .img-small{
+        display: none;
+    }
+
+    .top{
+        height: 30rem;
+        background-image: url('../images/other-city.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: visible;
+        text-align: center;
+        box-shadow: grey 0px 10px 30px;
+    }
+
+    .partial{
+        width: 50%;
+        text-align: center;
+    }
+
+    .greeting{
+        color: white;
+        font-family: 'Chelsea Market', cursive;
+        margin-top: 5rem;
+        animation: fadein 2s;
+    }
+
+    .greet-head{
+        font-size: 7rem;
+    }
+
+    .greet-tail{
+        font-size: 4rem;
+    }
+
+    nav{
+        opacity: 0%;
+    }
+
+    .content-block{
+        margin-left: 22rem;
+        margin-right: 22rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 23rem;
+    }
+
+    .contact-block{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 12rem;
+    }
+
+    .social{
+        height: 4rem;
+        margin-right: 2rem;
+        transition: opacity .5s, margin-top .5s;
+    }
+
+    .social:hover{
+        opacity: 30%;
+        margin-top: -.5rem;
+    }
+
+    .socials{
+        height: 3rem;
+    }
+
+    .img-left{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-right: 5rem;
+        transition: margin-top .5s;
+        display: block;
+    }
+
+    .img-right{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-left: 5rem;
+        transition: margin-top .5s;
+    }
+
+    .img-left:hover{
+        margin-top: -1rem;
+    }
+
+    .img-right:hover{
+        margin-top: -1rem;
+    }
+
+    .school{
+        margin-top: 1rem;
+    }
+
+    @keyframes fadein{
+        from {opacity: 30%;}
+        to {opacity: 100%;}
+        from {margin-top: 4rem;}
+        to {margin-top: 5rem;}
+    }
+}
+@media screen and (min-width: 1800px){
+    .header{
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+    }
+
+    .img-small{
+        display: none;
+    }
+
+    .top{
+        height: 30rem;
+        background-image: url('../images/other-city.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: visible;
+        text-align: center;
+        box-shadow: grey 0px 10px 30px;
+    }
+
+    .partial{
+        width: 50%;
+        text-align: center;
+    }
+
+    .greeting{
+        color: white;
+        font-family: 'Chelsea Market', cursive;
+        margin-top: 5rem;
+        animation: fadein 2s;
+    }
+
+    .greet-head{
+        font-size: 7rem;
+    }
+
+    .greet-tail{
+        font-size: 4rem;
+    }
+
+    nav{
+        opacity: 0%;
+    }
+
+    .content-block{
+        margin-left: 28rem;
+        margin-right: 28rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 23rem;
+    }
+
+    .contact-block{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 12rem;
+    }
+
+    .social{
+        height: 4rem;
+        margin-right: 2rem;
+        transition: opacity .5s, margin-top .5s;
+    }
+
+    .social:hover{
+        opacity: 30%;
+        margin-top: -.5rem;
+    }
+
+    .socials{
+        height: 3rem;
+    }
+
+    .img-left{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-right: 5rem;
+        transition: margin-top .5s;
+        display: block;
+    }
+
+    .img-right{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-left: 5rem;
+        transition: margin-top .5s;
+    }
+
+    .img-left:hover{
+        margin-top: -1rem;
+    }
+
+    .img-right:hover{
+        margin-top: -1rem;
+    }
+
+    .school{
+        margin-top: 1rem;
+    }
+
+    @keyframes fadein{
+        from {opacity: 30%;}
+        to {opacity: 100%;}
+        from {margin-top: 4rem;}
+        to {margin-top: 5rem;}
+    }
+}
+@media screen and (min-width: 2000px){
+    .header{
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+    }
+
+    .img-small{
+        display: none;
+    }
+
+    .top{
+        height: 30rem;
+        background-image: url('../images/other-city.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: visible;
+        text-align: center;
+        box-shadow: grey 0px 10px 30px;
+    }
+
+    .partial{
+        width: 50%;
+        text-align: center;
+    }
+
+    .greeting{
+        color: white;
+        font-family: 'Chelsea Market', cursive;
+        margin-top: 5rem;
+        animation: fadein 2s;
+    }
+
+    .greet-head{
+        font-size: 7rem;
+    }
+
+    .greet-tail{
+        font-size: 4rem;
+    }
+
+    nav{
+        opacity: 0%;
+    }
+
+    .content-block{
+        margin-left: 34rem;
+        margin-right: 34rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 23rem;
+    }
+
+    .contact-block{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: solid lightgrey 1px;
+        display: flex;
+        min-height: 12rem;
+    }
+
+    .social{
+        height: 4rem;
+        margin-right: 2rem;
+        transition: opacity .5s, margin-top .5s;
+    }
+
+    .social:hover{
+        opacity: 30%;
+        margin-top: -.5rem;
+    }
+
+    .socials{
+        height: 3rem;
+    }
+
+    .img-left{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-right: 5rem;
+        transition: margin-top .5s;
+        display: block;
+    }
+
+    .img-right{
+        height: 20rem;
+        box-shadow: grey 10px 10px;
+        margin-left: 5rem;
+        transition: margin-top .5s;
+    }
+
+    .img-left:hover{
+        margin-top: -1rem;
+    }
+
+    .img-right:hover{
+        margin-top: -1rem;
+    }
+
+    .school{
+        margin-top: 1rem;
+    }
+
+    @keyframes fadein{
+        from {opacity: 30%;}
+        to {opacity: 100%;}
+        from {margin-top: 4rem;}
+        to {margin-top: 5rem;}
+    }
+}
