@@ -66,6 +66,10 @@ nav{
     margin-left: 5rem;
 }
 
+.school{
+    margin-top: 1rem;
+}
+
 @keyframes fadein{
     from {opacity: 30%;}
     to {opacity: 100%;}
