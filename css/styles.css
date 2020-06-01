@@ -6,6 +6,10 @@
     animation: fade 2s;
 }
 
+nav{
+    display: none;
+}
+
 @keyframes fade{
     from {opacity: 30%;}
     to {opacity: 100%;}
