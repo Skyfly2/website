@@ -1,19 +1,21 @@
-const faders = document.querySelectorAll('.fade');
+const faders = document.querySelectorAll(".fade");
 
 const appearOptions = {};
-console.log(faders);
-const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
-    entries.forEach(entry => {
-        if(!entry.isIntersecting){
-            return;
-        }
-        else{
-            entry.target.classList.add('appear');
-            appearOnScroll.unobserve(entry.target);
-        }
-    })
-}, appearOptions);
+const appearOnScroll = new IntersectionObserver(function (
+  entries,
+  appearOnScroll
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+appearOptions);
 
-faders.forEach(fader => {
-    appearOnScroll.observe(fader);
+faders.forEach((fader) => {
+  appearOnScroll.observe(fader);
 });
